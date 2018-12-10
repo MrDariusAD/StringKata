@@ -9,7 +9,7 @@ namespace Test {
         [Fact]
         public void Add_Leerstring_wird_übergeben_0_ist_das_Ergebnis() {
             // Arrange
-            string numbers = "";
+            const string numbers = "";
             var calculator = new StringCalculator();
             
             // Act
